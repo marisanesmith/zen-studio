@@ -31,6 +31,7 @@ img {
 .bg-featured { background-color: #018ca2; }
 
 .text-featured { color: #f59186; }
+.bold-text { font-weight: bold; }
 
 .left { text-align: left; }
 .center { text-align: center; }
@@ -57,7 +58,7 @@ h3 { font-size: 2rem; }
 p { 
     line-height: 1.4;
     font-size: 1rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.2rem;
 }
 
 ul { margin-left: 1rem; }
@@ -131,4 +132,34 @@ footer {
 .shape-window {
     border-top-left-radius: 20rem;
     border-top-right-radius: 20rem;
+}
+
+/* Media Queries 
+@media (max-width: 36em) Max 576px   _xs-*
+@media (max-width: 48em) Max 768px   _sm-*
+@media (max-width: 64em) Max 1024px  _md-*
+@media (max-width: 80em) Max 1280px  _lg-*
+*/
+
+/* Gridlex SM query - Max 768px - _sm-* */
+@media (max-width: 48em) {
+    .text-xxl { font-size: 6.5rem; }
+    .text-xl { font-size: 3.5rem; }
+
+    .sm-block { display: block; }
+    .bg-leaves { background-image: url('./images/leaves-light.png');}
+
+    .text-center-sm { text-align: center; }
+}
+
+/* Gridlex XS media query - Max 576px - _xs-* */
+@media (max-width: 36em) {
+    .text-xl { font-size: 2.5rem; }
+    .text-lg { font-size: 2.5rem; }
+    .text-xxl { font-size: 4.5rem; }
+}
+
+/* Custom XXS media query - Max 400px - _xs-* */
+@media (max-width: 25em) {
+    .text-xxl { font-size: 2.5rem; }
 }
