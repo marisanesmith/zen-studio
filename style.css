@@ -28,7 +28,7 @@ img {
 .margin-b-0 { margin-bottom: 0; }
 
 .bg-light { background-color: #F8F6F4; }
-.bg-featured { background-color: #018ca2; }
+.bg-featured { background-color: #f59186; }
 
 .text-featured { color: #f59186; }
 .bold-text { font-weight: bold; }
@@ -63,6 +63,12 @@ p {
 
 ul { margin-left: 1rem; }
 li { padding-left: .5rem; }
+
+nav { 
+    font-size: 1.3rem;
+    font-family: 'Didot', serif;
+    color: #f59186;
+}
 
 h1:last-child,
 h2:last-child,
